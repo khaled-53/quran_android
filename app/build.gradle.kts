@@ -293,7 +293,6 @@ dependencies {
 
   implementation(libs.insetter)
   implementation(libs.timber)
-  debugImplementation(libs.leakcanary.android)
 
   testImplementation(project(":common:test-utils"))
   testImplementation(libs.junit)
