@@ -20,7 +20,6 @@ metro = "1.6.0"
 errorproneCoreVersion = "2.53.0"
 googleServices = "4.6.0"
 immutableCollectionsVersion = "0.5.2"
-leakcanaryAndroidVersion = "2.14"
 moshiVersion = "1.15.2"
 okioVersion = "3.18.2"
 quranMobileSyncVersion = "0.1.60"
@@ -170,7 +169,6 @@ tooltip-compose = { module = "com.github.skgmn:composetooltip", version.ref = "t
 reorderable-compose = { module = "org.burnoutcrew.composereorderable:reorderable", version.ref = "reorderableComposeVersion" }
 
 # utils
-leakcanary-android = { module = "com.squareup.leakcanary:leakcanary-android", version.ref = "leakcanaryAndroidVersion" }
 timber = { module = "com.jakewharton.timber:timber", version.ref = "timberVersion" }
 dnsjava = { module = "dnsjava:dnsjava", version.ref = "dnsjavaVersion" }
 

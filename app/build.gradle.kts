@@ -74,7 +74,7 @@ android {
   flavorDimensions += listOf("pageType")
   productFlavors {
     create("madani") {
-      applicationId = "com.quran.labs.androidquran"
+      applicationId = "com.khaled.mushafshareef"
     }
   }
 
@@ -293,7 +293,6 @@ dependencies {
 
   implementation(libs.insetter)
   implementation(libs.timber)
-  debugImplementation(libs.leakcanary.android)
 
   testImplementation(project(":common:test-utils"))
   testImplementation(libs.junit)
